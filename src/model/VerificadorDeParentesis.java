@@ -4,7 +4,7 @@ import java.util.Stack;
 
 public class VerificadorDeParentesis {
     public static boolean verificaBalance(String cadena) {
-        
+
         Stack<Character> pila = new Stack<>();
 
         // Iteramos a través de cada carácter en la cadena
